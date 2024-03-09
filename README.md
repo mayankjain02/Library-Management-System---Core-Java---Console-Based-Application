@@ -115,7 +115,8 @@ Here's a brief overview of the key components and functionalities of the `View` 
 
 ![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/495308d3-9500-435a-af00-27b3f330a223)
 
-**HOW DOES IT WORKS**
+**HOW DOES IT WORKS :**
+
 A console-based Library Management System (LMS) typically operates through a text-based interface, where users interact with the system through a command-line or terminal. Here's a simplified explanation of how a console-based LMS might work:
 
 1. **Initialization:**
