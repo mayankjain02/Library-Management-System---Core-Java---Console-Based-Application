@@ -57,8 +57,30 @@ Overrides the
 -toString() method to provide a string representation of the Book.
 -object.
 Returns a formatted string containing the book's name, author, and price.
-![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/2affa2cb-4efc-40b0-8a28-a88616f4d48b)
-
 
 __*The `Book` class serves as a data structure to store information about individual books, and it can be used in conjunction with other classes, such as the `Controller` class from the previous code snippet, to manage a collection of books within a library system.*__
+
+__INTRODUCTION TO LIBRARY :__
+
+The Java class, named `Library`, represents a model for a library in a library management system. It encapsulates information about a library, including its name, address, pin code, and a collection of books it holds. The class includes getter and setter methods for accessing and modifying these attributes.
+
+![Screenshot 2024-03-09 164134](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/f76a5af5-4f46-43f5-8ac2-a93d5701ddb2)
+
+Here's a brief overview of the key components of the `Library` class:
+
+- **Attributes:**
+  - `libraryName`: Represents the name of the library.
+  - `libraryAddress`: Represents the address of the library.
+  - `pincode`: Represents the pin code or postal code associated with the library.
+  - `books`: Represents a collection of `Book` objects, forming the library's inventory.
+
+- **Getter and Setter Methods:**
+  - `getLibraryName()`: Retrieves the name of the library.
+  - `setLibraryName(String libraryName)`: Sets the name of the library.
+  - `getLibraryAddress()`: Retrieves the address of the library.
+  - `setLibraryAddress(String libraryAddress)`: Sets the address of the library.
+  - `getPincode()`: Retrieves the pin code of the library.
+  - `setPincode(int pincode)`: Sets the pin code of the library.
+  - `getBooks()`: Retrieves the list of books in the library.
+  - `setBooks(List<Book> books)`: Sets the collection of books in the library.
 
