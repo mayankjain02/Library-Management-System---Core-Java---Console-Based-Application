@@ -26,7 +26,8 @@ Here's a brief overview of the key methods:
    - Returns the book if found, otherwise returns null.
 
 __INTRODUCTION TO BOOK :__
-The Java class, named `Book`, represents a basic model for storing information about books in a library management system. It encapsulates the details of a book, including its name, author, and price. The class includes getter and setter methods for accessing and modifying these attributes
+The Java class, named `Book`, represents a basic model for storing information about books in a library management system. It encapsulates the details of a book, including its name, author, and price. The class includes getter and setter methods for accessing and modifying these attributes.
+
 __*Attributes*__
 -bookName
 : Represents the name of the book.
