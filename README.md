@@ -89,3 +89,27 @@ __*The `Library` class serves as a container for information related to a specif
 __INTRODUCTION TO VIEW :__
 
 The provided Java class, named `View`, serves as the user interface for a Library Management System. It interacts with the user through the console, allowing them to perform various operations such as adding, removing, updating, and retrieving book information from the library. The class incorporates instances of the `Controller` class for handling business logic and the `Book` and `Library` classes for managing book and library information, respectively.
+
+Here's a brief overview of the key components and functionalities of the `View` class:
+
+- **Attributes:**
+  - `Library`: Represents a static instance of the `Library` class, serving as the central repository for book-related operations.
+
+- **Static Initialization Block:**
+  - Displays a welcome message and prompts the user to input details about the library (name, address, and pin code) during the program's startup.
+
+- **Main Method:**
+  - Presents a menu-driven interface to the user, allowing them to select various options for managing the library.
+  - Options include adding a book, removing a book, updating book details, retrieving book information, and exiting the program.
+
+- **Switch Statement:**
+  - Uses a switch statement to handle user input and execute the corresponding functionality.
+  - Options 1 to 4 trigger operations related to book management, while option 0 exits the program.
+
+- **User Input Handling:**
+  - Utilizes a `Scanner` object (`myInput`) for reading user input from the console.
+  - Validates and processes user input to perform the desired library operations.
+
+- **Integration with Controller:**
+![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/495308d3-9500-435a-af00-27b3f330a223)
+
