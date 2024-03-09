@@ -35,6 +35,7 @@ __*Attributes*__
 : Represents the author of the book.
 -bookPrice
 : Represents the price of the book.
+
 __*Getter and Setter Methods*__
 -getBookName()
 : Retrieves the name of the book.
@@ -48,10 +49,9 @@ __*setBookAuthor(String bookAuthor)*__
 : Retrieves the price of the book.
 -setBookPrice(double bookPrice)
 : Sets the price of the book.
+
 __*toString() Method*__
 Overrides the
--toString()
-method to provide a string representation of the
-Book
+-toString() method to provide a string representation of the Book.
 -object.
 Returns a formatted string containing the book's name, author, and price.
