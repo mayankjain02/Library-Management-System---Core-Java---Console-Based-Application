@@ -84,3 +84,4 @@ Here's a brief overview of the key components of the `Library` class:
   - `getBooks()`: Retrieves the list of books in the library.
   - `setBooks(List<Book> books)`: Sets the collection of books in the library.
 
+__*The `Library` class serves as a container for information related to a specific library, providing a structured way to manage details about the library itself and the books it contains. This class can be used in conjunction with other components, such as the `Controller` class and the `Book` class, to create a comprehensive library management system.*__
