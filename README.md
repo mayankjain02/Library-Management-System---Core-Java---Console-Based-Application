@@ -111,5 +111,7 @@ Here's a brief overview of the key components and functionalities of the `View` 
   - Validates and processes user input to perform the desired library operations.
 
 - **Integration with Controller:**
+
+
 ![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/495308d3-9500-435a-af00-27b3f330a223)
 
