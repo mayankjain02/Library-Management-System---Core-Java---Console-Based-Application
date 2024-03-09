@@ -85,3 +85,7 @@ Here's a brief overview of the key components of the `Library` class:
   - `setBooks(List<Book> books)`: Sets the collection of books in the library.
 
 __*The `Library` class serves as a container for information related to a specific library, providing a structured way to manage details about the library itself and the books it contains. This class can be used in conjunction with other components, such as the `Controller` class and the `Book` class, to create a comprehensive library management system.*__
+
+__INTRODUCTION TO VIEW :__
+
+The provided Java class, named `View`, serves as the user interface for a Library Management System. It interacts with the user through the console, allowing them to perform various operations such as adding, removing, updating, and retrieving book information from the library. The class incorporates instances of the `Controller` class for handling business logic and the `Book` and `Library` classes for managing book and library information, respectively.
