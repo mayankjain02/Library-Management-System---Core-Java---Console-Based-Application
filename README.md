@@ -56,4 +56,4 @@ Overrides the
 -object.
 Returns a formatted string containing the book's name, author, and price.
 
-The `Book` class serves as a data structure to store information about individual books, and it can be used in conjunction with other classes, such as the `Controller` class from the previous code snippet, to manage a collection of books within a library system.
+__*The `Book` class serves as a data structure to store information about individual books, and it can be used in conjunction with other classes, such as the `Controller` class from the previous code snippet, to manage a collection of books within a library system.*__
