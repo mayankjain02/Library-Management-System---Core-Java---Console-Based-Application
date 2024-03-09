@@ -41,10 +41,12 @@ __*Getter and Setter Methods*__
 : Retrieves the name of the book.
 -setBookName(String bookName)
 : Sets the name of the book.
+
 -getBookAuthor()
 : Retrieves the author of the book.
-__*setBookAuthor(String bookAuthor)*__
+setBookAuthor(String bookAuthor)
 : Sets the author of the book.
+
 -getBookPrice()
 : Retrieves the price of the book.
 -setBookPrice(double bookPrice)
@@ -55,5 +57,8 @@ Overrides the
 -toString() method to provide a string representation of the Book.
 -object.
 Returns a formatted string containing the book's name, author, and price.
+![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/2affa2cb-4efc-40b0-8a28-a88616f4d48b)
+
 
 __*The `Book` class serves as a data structure to store information about individual books, and it can be used in conjunction with other classes, such as the `Controller` class from the previous code snippet, to manage a collection of books within a library system.*__
+
