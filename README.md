@@ -115,3 +115,46 @@ Here's a brief overview of the key components and functionalities of the `View` 
 
 ![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/495308d3-9500-435a-af00-27b3f330a223)
 
+**HOW DOES IT WORKS**
+A console-based Library Management System (LMS) typically operates through a text-based interface, where users interact with the system through a command-line or terminal. Here's a simplified explanation of how a console-based LMS might work:
+
+1. **Initialization:**
+   - The system starts by initializing necessary components, such as the database or data structures to store library information.
+   - Users are prompted to input details about the library, such as its name, address, and other relevant information.
+
+2. **Menu Display:**
+   - A menu is displayed to the user, presenting various options and functionalities available in the LMS.
+   - Options may include adding a book, removing a book, updating book details, searching for books, and exiting the system.
+
+3. **User Input:**
+   - Users interact with the system by entering commands or selecting options from the menu.
+   - For example, a user might input a command to add a new book, providing details like the book's name, author, and price.
+
+4. **Controller Logic:**
+   - The console-based LMS is likely to have a controller or manager class that handles the business logic.
+   - This class interprets user input, executes the corresponding operations, and interacts with the underlying data structures or database.
+
+5. **Book Operations:**
+   - Users can perform various operations related to books, such as:
+     - **Adding a Book:** The system creates a new book object and adds it to the library's collection.
+     - **Removing a Book:** The system searches for the book by name and removes it from the library.
+     - **Updating a Book:** Users may modify details of an existing book, such as the name, author, or price.
+     - **Searching for a Book:** Users can search for a book by providing its name, and the system retrieves and displays relevant details.
+
+6. **User Feedback:**
+   - The system provides feedback to the user after each operation, confirming the success or failure of the requested action.
+   - For example, if a book is successfully added, the system displays a message indicating success.
+
+7. **Continuous Interaction:**
+   - The console-based LMS typically operates in a loop, allowing users to perform multiple operations without restarting the system.
+   - Users can continue interacting with the system until they choose to exit.
+
+8. **Exiting the System:**
+   - When the user decides to exit, they can select the corresponding option from the menu.
+   - The system may save any changes made to the library's data and then gracefully terminate.
+
+![image](https://github.com/mayankjain02/Library-Management-System---Core-Java---Console-Based-Application/assets/161832255/77781d4e-c834-4217-904b-a70aa9bffb8d)
+
+
+Console-based LMSs are lightweight and straightforward, providing basic functionality for managing library resources. They are suitable for scenarios where a graphical user interface is not essential, such as in environments where resources are limited or for educational purposes.
+
